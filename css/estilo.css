@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 99.3rem;
+    position: absolute;
+    height: 10vh;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: aliceblue;
+    padding-inline: 3rem;
+
+}
+
+h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5rem;
+
+
+}
+
+.links {
+    display: flex;
+    gap: 3.3rem;
+    list-style: none;
+
+
+}
+
+a {
+    font-family: 'Darker Grotesque';
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+.home {
+    background: url(../assets/fundo\ portfolio\ 1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-inline: 7rem;
+
+}
+
+.centro {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding-top: 20rem;
+
+}
+
+.foto {
+    padding-top: 7.4rem;
+    padding-left: 4.4rem;
+
+}
+
+section {
+    font-family: 'Darker Grotesque';
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+
+.work {
+
+    padding-top: 2rem;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+.foto__work {
+    display: flex;
+    padding-top: 2rem;
+    width: fit-content;
+    margin: auto;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40.5%;
+    gap: 1rem;
+
+}
+
+.about {
+    background-color: #0D0D0D;
+    color: aliceblue;
+
+}
+
+.about h3 {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+
+}
+
+.pintura {
+    display: flex;
+    padding-top: 6rem;
+    padding-inline: 5rem;
+    gap: 3rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+
+}
+
+.textos {
+    display: flex;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    font-size: 2.2rem;
+
+}
+
+
+p {
+    font-family: 'Darker Grotesque';
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    justify-content: space-between;
+    background-color: #737373;
+
+}
+
+.contact h3 {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 3rem;
+    width: 50%;
+    margin-inline: 25%;
+    gap: 2.5rem;
+}
+
+.contact a {
+    display: flex;
+    justify-content: center;
+    padding-block: 3rem;
+    color: aliceblue;
+}
+
+.whats p{
+    font-size: 1.7rem ;
+    padding-top: 0.3rem;
+}
